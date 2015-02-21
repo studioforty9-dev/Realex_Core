@@ -1,0 +1,28 @@
+{
+    "description": "StudioForty9 Realex Core module",
+    "extra": {
+        "map": [
+            [
+                "app/etc/modules/Realex_Core.xml",
+                "app/etc/modules/Realex_Core.xml"
+            ],
+            [
+                "app/code/community/Realex/Core/",
+                "app/code/community/Realex/Core/"
+            ],
+            [
+                "app/design/adminhtml/default/default/layout/realex/core.xml",
+                "app/design/adminhtml/default/default/layout/realex/core.xml"
+            ]
+        ]
+    },
+    "name": "realex/core",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "require-dev": {
+      "magetest/magento-behat-extension": "dev-develop"
+    },
+    "type": "magento-module",
+    "version": "0.0.1"
+}
