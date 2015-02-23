@@ -48,9 +48,9 @@ class Realex_Core_Helper_Data extends Mage_Core_Helper_Abstract
         }
     }
 
-    public function log($data){
+    public function log($data, $file = ''){
         if(Mage::getStoreConfig('realex/log/enabled')){
-            Mage::log($data, null, 'realex.log', true);
+            Mage::log($data, null, 'realex' . $file . '.log', true);
         }
     }
 
